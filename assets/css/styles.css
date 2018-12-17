@@ -1,0 +1,11 @@
+.mario{
+    position: fixed;
+    z-index: -100;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media (min-width:768px) {
+    .mario {
+        display: none;
+    }
+  }
